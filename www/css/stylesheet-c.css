@@ -4,10 +4,18 @@
 /*Background completo da página*/
 body {
 	background-image: linear-gradient(0deg, #000, #FFF 700%);
+	box-sizing: border-box;
+	height: auto;
+	position: relative;
+}
+
+li {
+	list-style-type: none;
 }
 
 /*Barra referente ao cabeçalho da página*/
 .barra {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -35,9 +43,8 @@ body {
 
 /*Responsável por centralizar os dois conteúdos de Notícias e Patch*/
 .centralizar {
-	height: 40%;
-	margin: 2% 10% 0% 10%;
-	position: absolute;
+	height: 2000px;
+	margin: 2% 6% 10% 6%;
 	width: 35%;
 }
 
@@ -82,13 +89,21 @@ body {
 #cabecalho {
 	background-color: #000; /*PRETO*/
 	color: #B1BC19; /*AMARELO*/
-	height: 4%;
+	height: 144px;
 	position: relative;
+}
+
+/*Imagem principal que aparece logo abaixo do cabeçalho*/
+#campeonato {
+	height: 2000px;
+	margin: 2% auto 5% auto;
+	position: relative;
+	text-align: center;
 }
 
 /*Bloco do cabeçalho de 'Criar Campeonato'*/
 #criar-campeonato {
-	display: none;
+	/*display: none;*/
 	width: 10%;
 }
 
@@ -101,19 +116,14 @@ body {
 	width: 50%;
 }
 
-/*Imagem principal que aparece logo abaixo do cabeçalho*/
-#campeonato {
-	background-image: url("../images/campeonato2.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 40%;
-	margin: 2% 20% 0 20%;
-	position: relative;
-}
-
 /*Bloco Campeonatos que aparece no cabeçalho*/
 #campeonatos {
 	display: list-item;
+}
+
+/*Imagem de fundo abaixo do cabeçalho*/
+#imagem {
+	height: 100%;
 }
 
 /*Bloco no cabeçalho referente ao login*/
@@ -124,12 +134,14 @@ body {
 /*Bloco de notícias recentes*/
 #noticias {
 	background-color: #FFF;
+	float: left;
 	left: 2.5%;
 }
 
 /*Bloco referente às novidades do patch*/
 #patch {
 	background-color: #FFF;
+	float: right;
 	right: 2.5%;
 }
 

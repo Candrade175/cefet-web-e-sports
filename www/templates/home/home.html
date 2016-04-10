@@ -1,3 +1,5 @@
+<!doctype html>
+<html>
 <head>
 	<link rel="stylesheet" href="../../css/stylesheet-c.css">
 </head>
@@ -6,27 +8,23 @@
 	<!-- Todo o cabeçalho no topo da página -->
 	<header id="cabecalho">
 		<!-- Barra para atividades básicas (independente de estar logado ou não) -->
-		<ul id="barra-comum" class="barra">
+		<ul class="barra">
 			<li class="bloco-esquerda"> 
 				<a href="../home/home.html" class="link"> <img src="../../images/logo.png" id="logo"> </a> 
 			</li>
-			<li id="campeonatos" class="bloco bloco-esquerda"> 
-				<a href="" class="link"> Campeonatos </a> 
+			<li class="bloco bloco-esquerda"> 
+				<a href="" class="link" id="campeonatos"> Campeonatos </a> 
 			</li>
-		</ul>
 
 		<!-- Barra para atividades de login/registro -->
-		<ul class="barra">
-			<li id="registrar" class="bloco bloco-direita"> 
-				<a href="../login/login.html" class="link"> Registrar </a> 
+			<li class="bloco bloco-direita"> 
+				<a href="../login/login.html" class="link" id="registrar"> Registrar </a> 
 			</li>
-			<li id="login" class="bloco bloco-direita"> 
-				<a href="" class="link"> Login </a> 
+			<li class="bloco bloco-direita"> 
+				<a href="" class="link" id="login"> Login </a> 
 			</li>
-		</ul>
 
 		<!-- Barra para 'Criar Campeonato' que só aparecerá para usuário logado -->
-		<ul class="barra">
 			<li id="criar-campeonato" class="bloco bloco-direita">
 				<a href="" class="link"> Criar Campeonato </a>
 			</li>
@@ -35,7 +33,7 @@
 
 	<!-- Foto de um campeonato abaixo do cabeçalho -->
 	<div id="campeonato">
-
+		<img src="../../images/imagem1.jpg" id="imagem">
 	</div>
 
 	<!-- Bloco de notícias à esquerda -->
@@ -47,4 +45,7 @@
 	<section id="patch" class="centralizar">
 		<p class="titulo"> Novidades de patch </p>
 	</section>
+
+	<script src="../../js/home/home.js"></script>
 </body>
+</html>
