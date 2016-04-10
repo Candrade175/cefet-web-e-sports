@@ -1,104 +1,116 @@
-.borda {
-	border-width: 1px;
-	border-style: solid;
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+body {
+	background-color: #E1E6FA;
+}
+
+.barra {
+	margin: 0;
+	padding: 0;
+}
+
+.bloco {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 60px;
+	height: 100%;
+	padding-top: 0.6%;
+	text-align: center;
+	width: 5%;
+}
+
+.bloco-direita {
+	float: right;
+}
+
+.bloco-esquerda {
+	float: left;
 }
 
 .centralizar {
 	height: 40%;
-	margin-top: 2%;
+	margin: 2% 10% 0% 10%;
 	position: absolute;
-	width: 45%;
+	width: 35%;
 }
 
-/***CABEÇALHO - início***/
-	.barra {
-		margin: 0;
-		padding: 0;
-	}
+.titulo {
+	background-image: linear-gradient(90deg, #000, #0F1653 50%);
+	color: #FFF; /*BRANCO*/
+	font-family: 'Candal', sans-serif;
+	font-size: 70px;
+	height: 10%;
+	margin: 0;
+	padding-top: 2%;
+	text-align: center;
+}
 
-	.bloco {
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 60px;
-		height: 100%;
-		padding-top: 0.6%;
-		text-align: center;
-		width: 5%;
-	}
+#cabecalho {
+	background-color: #000; /*PRETO*/
+	color: #B1BC19; /*AMRELO*/
+	height: 4%;
+	position: relative;
+}
 
-	.bloco-direita {
-		float: right;
-	}
+#logo {
+	height: 80%;
+	margin: 5% 1% 0% 5%;
+	padding: 0%;
+	text-align: left;
+	width: 50%;
+}
 
-	.bloco-esquerda {
-		float: left;
-	}
+#campeonatos {
 
-	#cabecalho {
-		background-color: #000;
-		color: #B1BC19;
-		height: 4%;
-		position: relative;
-	}
+}
 
-	#logo {
-		height: 80%;
-		margin: 5% 1% 0% 5%;
-		padding: 0%;
-		text-align: left;
-		width: 50%;
-	}
+#conteudo {
+	margin: 0%;
+}
 
-	#campeonatos {
+#campeonato {
+	background-image: url("../images/campeonato2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 40%;
+	margin: 2% 20% 0 20%;
+	position: relative;
+}
 
-	}
+#link {
+	text-decoration: none;
+}
 
-	#link {
-		text-decoration: none;
-	}
+#link:active {
+	color: #B1BC19;
+}
 
-	#link:active {
-		color: #B1BC19;
-	}
+#link:link {
+	color: #B1BC19;
+}
 
-	#link:link {
-		color: #B1BC19;
-	}
+#link:hover {
+	color: #B1BC19;
+}
 
-	#link:hover {
-		color: #B1BC19;
-	}
+#link:visited {
+	color: #B1BC19;
+}
 
-	#link:visited {
-		color: #B1BC19;
-	}
+#login {
 
-	#registrar {
+}
 
-	}
+#noticias {
+	background-color: #FFF;
+	left: 2.5%;
+}
 
-	#login {
+#patch {
+	background-color: #FFF;
+	right: 2.5%;
+}
 
-	}
-/***CABEÇALHO - fim***/
+#registrar {
 
-/***CONTEÚDO - início***/
-	#campeonato {
-		background-image: url("../images/campeonato2.jpg");
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		border-style: solid;
-		height: 40%;
-		margin: 2% 14.23% 0 14.23%;
-		position: relative;
-	}
-
-	#noticias {
-		border-style: solid;
-		left: 2.5%;
-	}
-
-	#patch {
-		border-style: solid;
-		right: 2.5%;
-	}
-/***CONTEÚDO - fim***/
+}
