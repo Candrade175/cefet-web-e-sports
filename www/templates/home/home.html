@@ -3,40 +3,47 @@
 </head>
 
 <body>
-	<!--> Todo o cabeçalho no topo da página <-->
+	<!-- Todo o cabeçalho no topo da página -->
 	<header id="cabecalho">
-		<!--> Barra para atividades básicas (independente de estar logado ou não) <-->
+		<!-- Barra para atividades básicas (independente de estar logado ou não) -->
 		<ul id="barra-comum" class="barra">
 			<li class="bloco-esquerda"> 
-				<a href="../home/home.html" id="link"> <img src="../../images/logo.png" id="logo"> </a> 
+				<a href="../home/home.html" class="link"> <img src="../../images/logo.png" id="logo"> </a> 
 			</li>
 			<li id="campeonatos" class="bloco bloco-esquerda"> 
-				<a href="" id="link"> Campeonatos </a> 
+				<a href="" class="link"> Campeonatos </a> 
 			</li>
 		</ul>
 
-		<!--> Barra para atividades de login/registro <-->
-		<ul id="barra-registro" class="barra">
+		<!-- Barra para atividades de login/registro -->
+		<ul class="barra">
 			<li id="registrar" class="bloco bloco-direita"> 
-				<a href="../login/login.html" id="link"> Registrar </a> 
+				<a href="../login/login.html" class="link"> Registrar </a> 
 			</li>
 			<li id="login" class="bloco bloco-direita"> 
-				<a href="" id="link"> Login </a> 
+				<a href="" class="link"> Login </a> 
+			</li>
+		</ul>
+
+		<!-- Barra para 'Criar Campeonato' que só aparecerá para usuário logado -->
+		<ul class="barra">
+			<li id="criar-campeonato" class="bloco bloco-direita">
+				<a href="" class="link"> Criar Campeonato </a>
 			</li>
 		</ul>
 	</header>
 
-	<!--> Foto de um campeonato abaixo do cabeçalho <-->
+	<!-- Foto de um campeonato abaixo do cabeçalho -->
 	<div id="campeonato">
 
 	</div>
 
-	<!--> Bloco de notícias à esquerda <-->
+	<!-- Bloco de notícias à esquerda -->
 	<section id="noticias" class="centralizar">
 		<p class="titulo"> Noticias Recentes </p>
 	</section>
 
-	<!--> Bloco de notícias de patch à direita <-->
+	<!-- Bloco de notícias de patch à direita -->
 	<section id="patch" class="centralizar">
 		<p class="titulo"> Novidades de patch </p>
 	</section>
