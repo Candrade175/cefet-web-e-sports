@@ -1,0 +1,36 @@
+.borda {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.centralizar {
+	height: 40%;
+	margin-top: 2%;
+	position: absolute;
+	width: 45%;
+}
+
+#cabecalho {
+	height: 4%;
+	position: relative;
+}
+
+#campeonato {
+	background-image: url("../images/campeonato2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-style: solid;
+	height: 40%;
+	margin: 2% 14.23% 0 14.23%;
+	position: relative;
+}
+
+#noticias {
+	border-style: solid;
+	left: 2.5%;
+}
+
+#patch {
+	border-style: solid;
+	right: 2.5%;
+}
