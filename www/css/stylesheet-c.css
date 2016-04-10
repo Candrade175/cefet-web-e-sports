@@ -1,3 +1,10 @@
+.bloco {
+	display: table-cell;
+	float: left;
+	height: 100%;
+	width: 5%;
+}
+
 .borda {
 	border-width: 1px;
 	border-style: solid;
@@ -10,7 +17,13 @@
 	width: 45%;
 }
 
+#barra {
+	margin: 0;
+	padding: 0;
+}
+
 #cabecalho {
+	background-color: #F2B1B1;
 	height: 4%;
 	position: relative;
 }
@@ -23,6 +36,13 @@
 	height: 40%;
 	margin: 2% 14.23% 0 14.23%;
 	position: relative;
+}
+
+#logo {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 2%;
 }
 
 #noticias {
