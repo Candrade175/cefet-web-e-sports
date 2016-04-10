@@ -1,32 +1,39 @@
 @import url(https://fonts.googleapis.com/css?family=Candal);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
+/*Background completo da página*/
 body {
 	background-color: #E1E6FA;
 }
 
+/*Barra referente ao cabeçalho da página*/
 .barra {
 	margin: 0;
 	padding: 0;
 }
 
+/*Bloco contendo cada opção no cabeçalho (campeonato, registro...)*/
 .bloco {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 60px;
 	height: 100%;
 	padding-top: 0.6%;
+	margin-top: -0.2%;
 	text-align: center;
 	width: 5%;
 }
 
+/*Blocos de registro/login*/
 .bloco-direita {
 	float: right;
 }
 
+/*Blocos básicos que não requerem login*/
 .bloco-esquerda {
 	float: left;
 }
 
+/*Responsável por centralizar os dois conteúdos de Notícias e Patch*/
 .centralizar {
 	height: 40%;
 	margin: 2% 10% 0% 10%;
@@ -34,6 +41,7 @@ body {
 	width: 35%;
 }
 
+/*Estiliza os títulos de Notícias e Patch*/
 .titulo {
 	background-image: linear-gradient(90deg, #000, #0F1653 50%);
 	color: #FFF; /*BRANCO*/
@@ -45,13 +53,15 @@ body {
 	text-align: center;
 }
 
+/*Header cabeçalho responsável por todo o cabeçalho*/
 #cabecalho {
 	background-color: #000; /*PRETO*/
-	color: #B1BC19; /*AMRELO*/
+	color: #B1BC19; /*AMARELO*/
 	height: 4%;
 	position: relative;
 }
 
+/*Imagem de logo que aparece no primeiro bloco do cabeçalho*/
 #logo {
 	height: 80%;
 	margin: 5% 1% 0% 5%;
@@ -60,14 +70,7 @@ body {
 	width: 50%;
 }
 
-#campeonatos {
-
-}
-
-#conteudo {
-	margin: 0%;
-}
-
+/*Imagem principal que aparece logo abaixo do cabeçalho*/
 #campeonato {
 	background-image: url("../images/campeonato2.jpg");
 	background-repeat: no-repeat;
@@ -77,40 +80,54 @@ body {
 	position: relative;
 }
 
+/*Bloco Campeonatos que aparece no cabeçalho*/
+#campeonatos {
+	display: list-item;
+}
+
+/*Links referentes aos blocos no cabeçalho*/
 #link {
 	text-decoration: none;
 }
 
+/*Links referentes aos blocos no cabeçalho: um link no momento em que é "clicado"*/
 #link:active {
 	color: #B1BC19;
 }
 
+/*Links referentes aos blocos no cabeçalho: um link que nunca foi visitado*/
 #link:link {
 	color: #B1BC19;
 }
 
+/*Links referentes aos blocos no cabeçalho: um link quando o mouse está em cima dele*/
 #link:hover {
 	color: #B1BC19;
 }
 
+/*Links referentes aos blocos no cabeçalho: um link que o usuário já visitou*/
 #link:visited {
 	color: #B1BC19;
 }
 
+/*Bloco no cabeçalho referente ao login*/
 #login {
-
+	display: list-item;
 }
 
+/*Bloco de notícias recentes*/
 #noticias {
 	background-color: #FFF;
 	left: 2.5%;
 }
 
+/*Bloco referente às novidades do patch*/
 #patch {
 	background-color: #FFF;
 	right: 2.5%;
 }
 
+/*Bloco no cabeçalho para registro de usuário*/
 #registrar {
-
+	display: list-item;
 }
