@@ -170,7 +170,7 @@ li {
 /*Bloco do cabeçalho de 'Criar Campeonato'*/
 #criar-campeonato {
 	/*display: none;*/
-	width: 7%;
+	width: 9%;
 }
 
 #gif {
@@ -180,10 +180,11 @@ li {
 
 	position: absolute;
 
-	left: 45%;
+	left: 0%;
 	height: 1250px;
+	margin: 0% 43%;
 	top: 10%;
-	width: 1250px;
+	width: 20%;
 }
 
 /*Imagem de fundo abaixo do cabeçalho*/
