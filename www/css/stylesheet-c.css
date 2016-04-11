@@ -23,12 +23,11 @@ li {
 /*Bloco contendo cada opção no cabeçalho (campeonato, registro...)*/
 .bloco {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 60px;
+	font-size: 14px;
 	height: 100%;
 	margin-top: -0.2%;
 	padding: 0.6% 1% 0% 1%;
 	text-align: center;
-	
 }
 
 /*Blocos de registro/login*/
@@ -50,7 +49,7 @@ li {
 /*Conteúdo das notícias publicadas*/
 .conteudo {
 	font-family: 'Raleway', sans-serif;
-	font-size: 55px;
+	font-size: 13px;
 	height: 55%;
 	left: 5%;
 	padding: 0% 0% 5% 5%;
@@ -62,7 +61,7 @@ li {
 /*Título das manchetes dentro de Notícias Recentes*/
 .headline {
 	font-family: 'Candal', sans-serif;
-	font-size: 60px;
+	font-size: 14px;
 	left: 15%;
 	position: relative;
 	text-align: center;
@@ -72,10 +71,10 @@ li {
 /*Imagem de uma das notícias recentes*/
 .imagens-manchete {
 	float: left;
-	height: 500px;
+	height: 117px;
 	margin: 4% 0% 0% 4%;
 	padding-bottom: 5%;
-	width: 500px;
+	width: 117px;
 }
 
 /*Links referentes aos blocos no cabeçalho*/
@@ -126,11 +125,17 @@ li {
 	background-image: linear-gradient(90deg, #000, #0F1653 50%);
 	color: #FFF; /*BRANCO*/
 	font-family: 'Candal', sans-serif;
-	font-size: 70px;
+	font-size: 16px;
 	height: 10%;
 	margin: 0;
 	padding-top: 2%;
 	text-align: center;
+}
+
+/*Espaço ocupado pelo logo*/
+#bloco-logo {
+	width: 30px;
+	padding: 0% 1%;
 }
 
 /*Bloco que contem as Notícias Recentes e as Novidades de Patch*/
@@ -144,7 +149,7 @@ li {
 #cabecalho {
 	background-color: #000; /*PRETO*/
 	color: #B1BC19; /*AMARELO*/
-	height: 144px;
+	height: 34px;
 	position: relative;
 	width: 100%;
 }
@@ -156,7 +161,7 @@ li {
 	background-size: 100% auto;
 
 	clear: left;
-	height: 2000px;
+	height: 467px;
 	margin: 2% auto 5% auto;
 	position: relative;
 	text-align: center;
@@ -181,7 +186,7 @@ li {
 	position: absolute;
 
 	left: 0%;
-	height: 1250px;
+	height: 292px;
 	margin: 0% 43%;
 	top: 10%;
 	width: 20%;
@@ -194,11 +199,10 @@ li {
 
 /*Imagem de logo que aparece no primeiro bloco do cabeçalho*/
 #logo {
-	height: 80%;
-	margin: 5% 1% 0% 5%;
+	margin: 1% 1% 0% 5%;
 	padding: 0%;
 	text-align: left;
-	width: 50%;
+	width: 100%;
 }
 
 /*Bloco no cabeçalho referente ao login*/
