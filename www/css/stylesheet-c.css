@@ -8,6 +8,8 @@ body {
 	box-sizing: border-box;
 	height: auto;
 	position: relative;
+	min-height: 7000px;
+	min-width: 1280px;
 }
 
 li {
@@ -206,10 +208,6 @@ li {
 	display: list-item;
 }
 
-/*Uma noticia publicada*/
-#noticia {
-	position: relative;
-}
 /*Bloco de notícias recentes*/
 #noticias {
 	background-image: linear-gradient(90deg, #53380D, #FFB899 100%);
