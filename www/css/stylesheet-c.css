@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Candal);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
 
 /*Background completo da página*/
 body {
@@ -28,7 +29,7 @@ li {
 	margin-top: -0.2%;
 	padding-top: 0.6%;
 	text-align: center;
-	width: 5%;
+	width: 4%;
 }
 
 /*Blocos de registro/login*/
@@ -43,9 +44,39 @@ li {
 
 /*Responsável por centralizar os dois conteúdos de Notícias e Patch*/
 .centralizar {
-	height: 2000px;
 	margin: 2% 6% 10% 6%;
 	width: 35%;
+}
+
+/*Conteúdo das notícias publicadas*/
+.conteudo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	height: 55%;
+	left: 5%;
+	padding: 0% 0% 5% 5%;
+	position: relative;
+	text-align: justify;
+	width: 90%;
+}
+
+/*Título das manchetes dentro de Notícias Recentes*/
+.headline {
+	font-family: 'Candal', sans-serif;
+	font-size: 60px;
+	left: 15%;
+	position: relative;
+	text-align: center;
+	width: 70%;
+}
+
+/*Imagem de uma das notícias recentes*/
+.imagens-manchete {
+	float: left;
+	height: 500px;
+	margin: 4% 0% 0% 4%;
+	padding-bottom: 5%;
+	width: 500px;
 }
 
 /*Links referentes aos blocos no cabeçalho*/
@@ -73,6 +104,24 @@ li {
 	color: #B1BC19;
 }
 
+/*Manchetes de notícias*/
+.manchete {
+	height: auto;
+	margin: 1%;
+	position: relative;
+	padding-right: 2%;
+}
+
+/*Manchetes que aparecerão dentro de Notícias Recentes*/
+.manchete-noticia {
+	background-color: #FFB899;
+}
+
+/*Manchetes que aparecerão dentro de Novidades de Patch*/
+.manchete-patch {
+	background-color: #9DB2D7;
+}
+
 /*Estiliza os títulos de Notícias e Patch*/
 .titulo {
 	background-image: linear-gradient(90deg, #000, #0F1653 50%);
@@ -85,6 +134,13 @@ li {
 	text-align: center;
 }
 
+/*Bloco que contem as Notícias Recentes e as Novidades de Patch*/
+#bloco-noticias {
+	height: auto;
+	position: relative;
+	width: auto;
+}
+
 /*Header cabeçalho responsável por todo o cabeçalho*/
 #cabecalho {
 	background-color: #000; /*PRETO*/
@@ -95,16 +151,44 @@ li {
 
 /*Imagem principal que aparece logo abaixo do cabeçalho*/
 #campeonato {
+	background-image: url("../images/kalista.gif");   
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+
+	clear: left;
 	height: 2000px;
 	margin: 2% auto 5% auto;
 	position: relative;
 	text-align: center;
 }
 
+/*Bloco Campeonatos que aparece no cabeçalho*/
+#campeonatos {
+	display: list-item;
+}
+
 /*Bloco do cabeçalho de 'Criar Campeonato'*/
 #criar-campeonato {
 	/*display: none;*/
-	width: 10%;
+	width: 7%;
+}
+
+#gif {
+	background-image: url("../images/lucian.gif");   
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+
+	position: absolute;
+
+	left: 45%;
+	height: 1250px;
+	top: 10%;
+	width: 1250px;
+}
+
+/*Imagem de fundo abaixo do cabeçalho*/
+#imagem {
+	height: 100%;
 }
 
 /*Imagem de logo que aparece no primeiro bloco do cabeçalho*/
@@ -116,32 +200,30 @@ li {
 	width: 50%;
 }
 
-/*Bloco Campeonatos que aparece no cabeçalho*/
-#campeonatos {
-	display: list-item;
-}
-
-/*Imagem de fundo abaixo do cabeçalho*/
-#imagem {
-	height: 100%;
-}
-
 /*Bloco no cabeçalho referente ao login*/
 #login {
 	display: list-item;
 }
 
+/*Uma noticia publicada*/
+#noticia {
+	position: relative;
+}
 /*Bloco de notícias recentes*/
 #noticias {
-	background-color: #FFF;
-	float: left;
+	background-image: linear-gradient(90deg, #53380D, #FFB899 100%);
+	position: relative;
+	height: auto;
 	left: 2.5%;
 }
 
 /*Bloco referente às novidades do patch*/
 #patch {
-	background-color: #FFF;
-	float: right;
+	background-image: linear-gradient(-90deg, #53380D, #9DB2D7 100%);
+	bottom: 0%;
+	height: auto;
+	margin: 0;
+	position: absolute;
 	right: 2.5%;
 }
 

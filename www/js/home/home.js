@@ -1,14 +1,11 @@
 var imagem = document.getElementById('imagem');
+var intervaloSlide = setInterval(slideShow, 3000);
 var servidorDasImagens = '../../images/';
-var todasAsImagens = ['imagem1.jpg', 'imagem2.jpg', 'imagem6.jpg', 'imagem5.jpg', 'imagem7.jpg', 'imagem3.jpeg', 'imagem8.jpg', 'imagem4.png'];
-
-var intervalo = setInterval(slideShow, 3000);
+var todasAsImagens = ['imagem2.jpg', 'imagem5.jpg', 'imagem7.jpg', 'imagem3.jpeg', 'imagem8.jpg', 'imagem4.png'];
 
 function slideShow() {
 	for (var i = 0; i < todasAsImagens.length; i++)
 	{
-		console.log(imagem.src.indexOf(todasAsImagens[i]) != -1);
-
 		if (imagem.src.indexOf(todasAsImagens[i]) != -1)
 		{
 			if (i != todasAsImagens.length-1)
@@ -19,3 +16,4 @@ function slideShow() {
 		}
 	}
 }
+
