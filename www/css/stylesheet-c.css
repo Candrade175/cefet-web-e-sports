@@ -27,9 +27,8 @@ li {
 	font-size: 60px;
 	height: 100%;
 	margin-top: -0.2%;
-	padding-top: 0.6%;
+	padding: 0.6% 1% 0% 1%;
 	text-align: center;
-	width: 4%;
 }
 
 /*Blocos de registro/login*/
@@ -147,6 +146,7 @@ li {
 	color: #B1BC19; /*AMARELO*/
 	height: 144px;
 	position: relative;
+	width: 100%;
 }
 
 /*Imagem principal que aparece logo abaixo do cabeçalho*/
@@ -170,7 +170,7 @@ li {
 /*Bloco do cabeçalho de 'Criar Campeonato'*/
 #criar-campeonato {
 	/*display: none;*/
-	width: 9%;
+	width: 10%;
 }
 
 #gif {
